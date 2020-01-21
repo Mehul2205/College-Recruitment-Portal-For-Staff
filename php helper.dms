@@ -1,0 +1,173 @@
+Personal Details
+
+$placeofbirth = $_GET['placeofbirth']
+$marital_status = $_GET['marital_status']
+$Nationality = $_GET['Nationality']
+$handicapped = $_GET['handicapped']
+$religion = $_GET['religion']
+$blood = $_GET['blood']
+$mark = $_GET['mark']$
+
+Contact
+
+$emergency_phone_number = $_GET['emergency_phone_number'];
+$alternate_email = $_GET['alternate_email'];
+
+P Address
+
+$address_line1 = $_GET['address_line1'];
+$address_line2 = $_GET['address_line2'];
+$city = $_GET['city'];
+$pincode = $_GET['pincode'];
+$district = $_GET['district'];
+$state = $_GET['state'];
+
+C Address
+
+$address_line1 = $_GET['address_line1'];
+$address_line2 = $_GET['address_line2'];
+$city = $_GET['city'];
+$pincode = $_GET['pincode'];
+$district = $_GET['district'];
+$state = $_GET['state'];
+
+Secondary/high/btech/mtech/other
+
+$degree = $_GET['degree'];
+$discipline = $_GET['discipline'];
+$institute = $_GET['institute'];
+$university = $_GET['university'];
+$year_passed = $_GET['year_passed'];
+$date_of_result = $_GET['date_of_result'];
+$marks = $_GET['marks'];
+
+phd
+
+$degree = $_GET['degree'];
+$discipline = $_GET['discipline'];
+$institute = $_GET['institute'];
+$university = $_GET['university'];
+$date_of_enrollment = $_GET['date_of_enrollment'];
+$date_of_defense = $_GET['date_of_defense'];
+$marks = $_GET['marks'];
+
+exp summary
+
+experience_defense
+experience_mtech
+experience_phd
+ongoing_project
+completed_project
+teaching_lab
+outreach_activity
+
+
+$experience_defense = $_GET['experience_defense'];
+$experience_mtech = $_GET['experience_mtech'];
+$experience_phd = $_GET['experience_phd'];
+$ongoing_project = $_GET['ongoing_project'];
+$completed_project = $_GET['completed_project'];
+$teaching_lab = $_GET['teaching_lab'];
+$outreach_activity = $_GET['outreach_activity'];
+
+
+Spon Project
+
+$title = $_GET['title'];
+$funding_agency = $_GET['funding_agency'];
+$role = $_GET['role'];
+$other_investigators = $_GET['other_investigators'];
+$currency = $_GET['currency'];
+$cost = $_GET['cost'];
+$start_date = $_GET['start_date'];
+$completion_date = $_GET['completion_date'];
+$outcome = $_GET['outcome'];
+
+Awards
+
+$title = $_GET['title'];
+$issuing_agency = $_GET['issuing_agency'];
+$issuing_date = $_GET['issuing_date'];
+
+Scholarships
+
+$title = $_GET['title'];
+$issuing_agency = $_GET['issuing_agency'];
+$issuing_date = $_GET['issuing_date'];
+
+Recognition
+
+title
+issuing_agency
+issuing_date
+
+Patent
+
+$title = $_GET['title'];
+$short_description = $_GET['short_description'];
+$inventors = $_GET['inventors'];
+$country = $_GET['country'];
+$patent_number = $_GET['patent_number'];
+$patent_issuing_date = $_GET['patent_issuing_date'];
+$application_number = $_GET['application_number'];
+$application_date = $_GET['application_date'];
+$status = $_GET['status'];
+
+Members
+
+$name = $_GET['name'];
+$membership_category = $_GET['membership_category'];
+$start_date = $_GET['start_date'];
+$end_date = $_GET['end_date'];
+
+stcourses
+
+name
+short_description
+start_date
+end_date
+
+outreach
+
+name
+short_description
+start_date
+end_date
+
+add_details
+
+description
+
+
+elearning
+
+$title = $_GET['title'];
+$short_description = $_GET['short_description'];
+$url = $_GET['url'];
+
+students supervised
+
+$bachelors_students = $_POST['bachelors_students'];
+$masters_students = $_POST['masters_students'];
+$doctoral_students = $_POST['doctoral_students'];
+$doctoral_students_sole = $_POST['doctoral_students_sole'];
+$doctoral_students_ps = $_POST['doctoral_students_ps'];
+$doctoral_students_cont = $_POST['doctoral_students_cont'];
+
+psummary
+
+$non_sci_journals = $_POST['non_sci_journals'];
+$sci_journals = $_POST['sci_journals'];
+$sci_journals_phd = $_POST['sci_journals_phd'];
+$conference_papers = $_POST['conference_papers'];
+$book_chapters = $_POST['book_chapters'];
+$books = $_POST['books'];
+$invited_talks = $_POST['invited_talks'];
+publication_list
+
+refrences
+
+$name = $_GET['name'];
+$phone_number = $_GET['phone_number'];
+$email = $_GET['email'];
+$address = $_GET['address'];

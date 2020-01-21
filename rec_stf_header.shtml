@@ -1,0 +1,219 @@
+        <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+                <a href="#" class="site_title"><span>Application Portal</span></a>
+            </div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+                <div class="profile_pic">
+                    <img src="<?php echo $img_url ?>" alt="Profile Picture" class="img-circle profile_img">
+                </div>
+                <div class="profile_info">
+                    <span>Welcome,</span>
+                    <h2><?php echo $firstname." ".$lastname?></h2>
+                </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                <div class="menu_section">
+                    <h3>Application Details</h3>
+                    <ul class="nav side-menu">
+
+                        <li><a id="menu_1"><i class="fa fa-user"></i> Personal Details <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+
+                                <li id="Application Details__Personal Details__Personal Details">
+                                    <a href="rec_stf_detail.php"></i> Personal Details</a>
+                                </li>
+
+
+                                <li id="Application Details__Personal Details__Contact">
+                                    <a href="rec_stf_contact.php"></i> Contact</a>
+                                </li>
+
+
+                                <li id="Application Details__Personal Details__Permanent Address">
+                                    <a href="rec_stf_permanent_add.php"></i> Permanent Address</a>
+                                </li>
+
+
+                                <li id="Application Details__Personal Details__Correspondence Address">
+                                    <a href="rec_stf_corr_add.php"></i> Correspondence Address</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+                        <li><a id="menu_2"><i class="fa fa-university"></i> Academic Qualification <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu" style="">
+
+
+                                <li id="Application Details__Academic Qualification__Secondary Exam">
+                                    <a href="rec_stf_secondary.php"></i> Secondary Exam</a>
+                                </li>
+
+
+                                <li id="Application Details__Academic Qualification__Higher Secondary Exam">
+                                    <a href="rec_stf_higher_secondary.php"></i> Higher Secondary Exam</a>
+                                </li>
+
+
+                                <li id="Application Details__Academic Qualification__Bachelor&#39;s Degree">
+                                    <a href="rec_stf_bachelor.php"></i> Bachelor's Degree</a>
+                                </li>
+
+
+                                <li id="Application Details__Academic Qualification__Master&#39;s Degree">
+                                    <a href="rec_stf_master.php"></i> Master's Degree</a>
+                                </li>
+
+
+                                <li id="Application Details__Academic Qualification__PhD">
+                                    <a href="rec_stf_phd.php"></i> PhD</a>
+                                </li>
+
+
+                                <li id="Application Details__Academic Qualification__Other Degree/Diploma">
+                                    <a href="rec_stf_other.php"></i> Other Degree/Diploma</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_4"><i class="fa fa-industry"></i> Work Experience <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+                                    <li id="Application Details__Work Experience__Work Experience">
+                                        <a href="rec_stf_wrok_experience.php"></i> Work Experience</a>
+                                    </li>
+
+                                    <li id="Application Details__Work Experience__Experience Summary">
+                                        <a href="rec_stf_expsummary.php"></i> Experience Summary</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_6"><i class="fa fa-wpforms"></i> Other Achievements <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+
+                                    <li id="Application Details__Other Achievements__Awards">
+                                        <a href="rec_stf_awards.php"></i> Awards</a>
+                                    </li>
+
+
+                                    <li id="Application Details__Other Achievements__Scolarships">
+                                        <a href="rec_stf_scolarships.php"></i> Scolarships</a>
+                                    </li>
+
+
+                                    <li id="Application Details__Other Achievements__Recognition">
+                                        <a href="rec_stf_recognition.php"></i> Recognition</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_11"><i class="fa fa-wpforms"></i> References <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+
+                                    <li id="Application Details__References__References">
+                                        <a href="rec_stf_refrences.php"></i> References</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_13"><i class="fa fa-wpforms"></i> Outreach Activity <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+
+                                    <li id="Application Details__Outreach Activity__Outreach Activity">
+                                        <a href="rec_stf_outreach.php"></i> Outreach Activity</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+
+                            <li><a id="menu_14"><i class="fa fa-wpforms"></i> Additional Details <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+
+                                    <li id="Application Details__Additional Details__Additional Details">
+                                        <a href="rec_stf_add_details.php"></i> Additional Details</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_15"><i class="fa fa-wpforms"></i>Additional Form<span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+
+
+                                    <li id="Application Details__Additional_Form_Institute">
+                                        <a href="rec_stf_instactivity.php"></i> Institute Activities</a>
+                                    </li>
+
+
+                                    <li id="Application Details__Additional_Form_Department">
+                                        <a href="rec_stf_deprtactivity.php"></i> Department Activities</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_16"><i class="fa fa-wpforms"></i> Fee Payment  <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu" style="">
+                                    <li id="Application Details__Additional Details__Additional Details">
+                                        <a href="rec_stf_payment.php"></i> Pay Fee</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li><a id="menu_17"><i class="fa fa-wpforms"></i> Print PDF Format <span class="fa fa-chevron-down"></span></a>
+
+                                <ul class="nav child_menu" style="">
+                                    <li id="Application Details__Additional Details__Additional Details">
+                                        <a href="rec_stf_pdf_page.php"></i> Print PDF</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /sidebar menu -->
+            </div>
+        </div>
+
+        <!-- top navigation -->
+
+        <div class="top_nav">
+            <div class="nav_menu">
+                <nav>
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <?php echo $firstname." ".$lastname?>
+                                <span class=" fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li>
+                                    <a href="rec_stf_logout.php">Log Out</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /top navigation -->
